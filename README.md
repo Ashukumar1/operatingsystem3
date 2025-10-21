@@ -1,2 +1,3 @@
-# operatingsystem3
-File Allocation
+**File Allocation in Operating Systems (≈100 words):**
+
+File allocation refers to the method used by an operating system to store files on a disk and manage their space efficiently. It determines how file data blocks are placed and retrieved from storage. The three main types are: **Contiguous Allocation**, where all file blocks are stored together, offering fast access but causing external fragmentation; **Linked Allocation**, where each file block contains a pointer to the next, reducing fragmentation but slowing access; and **Indexed Allocation**, where an index block maintains all pointers to data blocks, providing direct access and flexibility. Efficient allocation improves disk utilization and performance.
